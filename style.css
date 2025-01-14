@@ -1,0 +1,109 @@
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 10px auto;
+    margin-bottom: 2px;
+}
+
+.nav_Links{
+    display: flex;
+    list-style-type: none;
+    gap:15px;
+    padding: 0px;
+    font-weight: 700;
+}
+
+.nav_Links li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.nav_Links li a select{
+    border: none;
+    font-weight: 700;
+    
+}
+
+.nav_search{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+   
+}
+
+.nav_search input{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.nav_search i{
+    text-align: center;
+    padding-left: 8px;
+}
+
+.seprator{
+    height:1px;
+    width: 100%;
+    background-color: gray;
+}
+
+
+.hero_img{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+
+/* //------------------------------------------------------sec01------------------------------------------------- */
+
+.sec01{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.sec01 div{
+background-color: red;
+/* border: 2px solid black; */
+font-weight: 700;
+padding: 0px 5px;
+margin: auto 0px;
+border-radius: 5px;
+
+}
+.sec01 h5{
+margin: 0px;
+}
+
+
+.sec01_heading{
+
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+width: 70%;
+margin: 0px auto;
+}
+
+.sec01_para{
+text-align: center;
+margin: 30px 0px;
+}
+
+.sec02_para_mid{
+color: blue;
+font-weight: 700;
+}
+.sec01_para_defi{
+    width: 80%;
+    margin: 0px auto;
+    font-weight: 600;
+}
